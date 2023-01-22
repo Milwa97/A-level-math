@@ -99,4 +99,14 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-If You want to enable interactive 
+If You want to enable interactive graphics (better option, but may require installing manually some dependencies according to this instruction:
+[Render interactive plots with matplotlib](https://towardsdatascience.com/render-interactive-plots-with-matplotlib-2cf0918d89c9), use:
+```
+%matplotlib widget
+```
+
+For static graphics use (safe, always working option):
+```
+%matplotlib inline
+```
+Comment or delete option that You don't use.
